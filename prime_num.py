@@ -1,10 +1,10 @@
-num=int(input("enter the numebr to check prime or not)
+num=int(input("enter the numebr to check prime or not"))
 if num<2:
-  print("not prime")
+  print("Not a prime")
 else:
   for i in range(2,num):
-        if num%i==0:
-          print("not a prime")
-          break
+    if num%i==0:
+        print("Not a prime")
+        break
   else:
         print("Prime")
